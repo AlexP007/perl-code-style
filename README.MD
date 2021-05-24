@@ -40,4 +40,6 @@ go on the next line after the body.
 * Try to limit your code with 74-78 columns lines.
 * Use empty line to separate logical pieces of code.
 * Never use function prototypes. In most cases (99%) it's pointless and weird.
+* Always unpack arguments @_ first.
 * Always use return explicitly.
+* Use two-part version numbers.
