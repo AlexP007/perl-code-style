@@ -41,5 +41,10 @@ go on the next line after the body.
 * Use empty line to separate logical pieces of code.
 * Never use function prototypes. In most cases (99%) it's pointless and weird.
 * Always unpack arguments @_ first.
+* Prefer arguments from @_ to other possibilities (like shift) for code consistence.
+* Try not use $_, except for special code block (like grep or map, etc...).
 * Always use return explicitly.
 * Use two-part version numbers.
+* Put all the code first; and all the POD last.
+* Always start POD with =encoding utf8.
+* Major pod headers (=head1) should be written in uppercase.
