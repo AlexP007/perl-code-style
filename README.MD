@@ -42,6 +42,7 @@ go on the next line after the body.
 * Never use function prototypes. In most cases (99%) it's pointless and weird.
 * Always unpack arguments @_ first.
 * Prefer arguments from @_ to other possibilities (like shift) for code consistence.
+* Use named parameters (a hash or hashref) when there are more than two parameters.
 * Try not use $_, except for special code block (like grep or map, etc...).
 * Always use return explicitly.
 * Use two-part version numbers.
